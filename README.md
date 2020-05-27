@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a6e4ff96-33db-414c-8d77-01114da330a2/deploy-status)](https://app.netlify.com/sites/axiomtheme/deploys)
+
 # Axiom - .com Website
 
 Main .com website for the Axiom Hugo Theme.
