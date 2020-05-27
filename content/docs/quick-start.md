@@ -13,7 +13,7 @@ To get started with Axiom, choose one of the installation options below.
 
 ## Clone the Example Project
 
-The fastest and easiest way to experience Axiom is to __clone__ the Example project (this very website). When you clone the Example project the Theme comes pre-installed and configured. When the clone completes you can run the Example project locally without any further steps:
+The fastest and easiest way to experience Axiom is to __clone__ the Example project. When you clone the [Example project](https://github.com/marketempower/axiom-example.git) ([live version](https://axiom-example.netlify.app/)) the Theme comes pre-installed and configured. When the clone completes you can run the Example project locally without any further steps:
 
 ```shell
 git clone --recurse-submodules https://github.com/marketempower/axiom-example.git
@@ -49,6 +49,8 @@ wget https://github.com/marketempower/axiom-example/raw/master/config.toml
 ## Updating the Theme
 
 As new versions of Axiom are released, you may consider updating your project's version to the latest release.
+
+> Don't forget to also sync your Config file with any new options the update provides.
 
 If you followed one of the steps above, the Theme is installed as a submodule:
 

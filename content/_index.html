@@ -5,17 +5,23 @@ description = "Axiom is a powerful, high performance, modular Hugo theme, design
 +++
 
 {{< blocks/section >}}
-{{< figure src="image/page-default.webp"  caption="Axiom - A Hugo Theme" >}}
+  {{< figure src="image/page-default.webp"  caption="Axiom - A Hugo Theme" >}}
 {{< /blocks/section >}}
 
 {{< blocks/section width="max-w-2xl cdata" mdown="off">}}
-{{< headless-resource "/home/welcome" >}}
+  {{< headless-resource "/home/welcome" >}}
 
-{{< blocks/justify class="mt-4" >}}
-{{< button text="Axiom Theme" type="info" icon="github" href="https://github.com/marketempower/axiom" >}}
-&nbsp;&nbsp;
-{{< button text="Axiom Example" type="warn" icon="github" href="https://github.com/marketempower/axiom-example" >}}
-{{< /blocks/justify >}}
+  <div class="sm:flex sm:items-center sm:justify-center sm:space-x-4 sm:space-y-0 space-y-4 text-center">
+    <div>
+      {{< button text="Axiom Theme" type="info" icon="github" href="https://github.com/marketempower/axiom" >}}
+    </div>
+    <div>
+      {{< button text="Axiom Example" type="info" icon="github" href="https://github.com/marketempower/axiom-example" >}}
+    </div>
+    <div>
+      {{< button text="Live Example" type="info" icon="file" href="https://axiom-example.netlify.app/" >}}
+    </div>
+  </div>
 {{< /blocks/section >}}
 
 {{< blocks/section >}}
@@ -30,6 +36,6 @@ description = "Axiom is a powerful, high performance, modular Hugo theme, design
 {{< /blocks/section >}}
 
 {{< blocks/section width="max-w-2xl" mdown="off" >}}
-{{< term-cloud "tags" >}}
-{{< recent-pages 3 >}}
+  {{< term-cloud "tags" >}}
+  {{< recent-pages 3 >}}
 {{< /blocks/section >}}

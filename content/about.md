@@ -5,7 +5,9 @@ feature = "image/page-default.webp"
 summary = "About. Lorem est tota propiore conpellat pectoribus de pectora summo."
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Axiom is a powerful, high performance, modular Hugo theme, designed to make the readers of your content and the search engines happy.
+
+Created by [Jhaura Wachsman](https://twitter.com/JhauraWachsman) and made with ❤️.
 
 {{< blockquote "You can trade hours for dollars or ideas for millions." "Cactus Jack on" "The Shark Tank" >}}
 
