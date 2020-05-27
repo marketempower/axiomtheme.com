@@ -1,10 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6e4ff96-33db-414c-8d77-01114da330a2/deploy-status)](https://app.netlify.com/sites/axiomtheme/deploys)
 
-# Axiom - .com Website
+# Axiom - Main Website
 
-Main .com website for the Axiom Hugo Theme.
+Main website for the Axiom Hugo Theme.
 
-Navigate to the homepage to learn how to get started with Axiom in your project.
+Navigate to the [homepage](https://www.axiomtheme.com/) to learn how to get started with Axiom in your Hugo project.
 
 # License
 
