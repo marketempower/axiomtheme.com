@@ -1,0 +1,13 @@
+[default]
+name = "Axiom Theme"
+uri = "https://www.axiomtheme.com/"
+email = "info@axiomtheme.com"
+twitter = "axiomtheme"
+image = "image/author/default.webp"
+
+[axiom]
+name = "Axiom Theme"
+uri = "https://www.axiomtheme.com/"
+email = "info@axiomtheme.com"
+twitter = "axiomtheme"
+image = "image/author/default.webp"
