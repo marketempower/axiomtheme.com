@@ -14,7 +14,7 @@ __Please DO NOT open a Github Issue unless it is related to Axiom specific code_
 
 ### Most Common User Error
 
-Did not synchronize the [Config]({{< relref "docs/configuration" >}}) file after **install** or **update**.
+Didn't synchronize the [Config]({{< relref "docs/configuration" >}}) file after **install** or **update**.
 
 ## Resources
 
