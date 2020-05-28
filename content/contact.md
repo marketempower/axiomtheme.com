@@ -1,8 +1,8 @@
 +++
 title = "Contact"
-caption = "Caption. Lorem est tota propiore conpellat pectoribus de pectora summo."
+caption = "Capturing the sunset. Sedona, AZ"
 feature = "image/page-default.webp"
-summary = "Contact. Lorem est tota propiore conpellat pectoribus de pectora summo."
+summary = "Contact"
 +++
 
 To get in touch, send an email to the address below, or connect via social media.

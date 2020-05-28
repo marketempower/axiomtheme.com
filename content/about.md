@@ -1,8 +1,8 @@
 +++
 title = "About"
-caption = "Caption. Lorem est tota propiore conpellat pectoribus de pectora summo."
+caption = "Capturing the sunset. Sedona, AZ"
 feature = "image/page-default.webp"
-summary = "About. Lorem est tota propiore conpellat pectoribus de pectora summo."
+summary = "About"
 +++
 
 Axiom is a powerful, high performance, modular Hugo theme, designed to make the readers of your content and the search engines happy.
