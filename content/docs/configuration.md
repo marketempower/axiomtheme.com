@@ -41,7 +41,7 @@ baseURL = "https://example.com"
 title = "Axiom A Hugo Theme"
 # Language codes (lowercase)
 languageCode = "en-us"
-defaultContentLanguage = "en-us"
+defaultContentLanguage = "en"
 
 # Which theme to use
 theme = "axiom"
@@ -93,7 +93,7 @@ dateFormat = "Jan 2, 2006 3:04PM"
 # Chroma Syntax Highlighting
 # Options: dark, light, false
 highlight = "dark"
-omitThemeAttribution = false
+disableThemeAttribution = false
 ```
 
 To enable Axiom's Syntax Highlighting color schemes to take effect, you will need to enable Markup Highlight Classes:
@@ -328,9 +328,9 @@ Axiom is multi-language ready:
 
 ```toml
 [languages]
-[languages."en-us"]
+[languages."en"]
 weight = 1
-languageName = "US English"
+languageName = "English"
 ```
 
 > NOTE: If additional languages are added, be sure to create the corresponding lang file in the `i18n` directory, and menus in the Config file.
