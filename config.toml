@@ -2,7 +2,7 @@ baseURL = "https://www.axiomtheme.com"
 
 title = "Axiom - A Hugo Theme"
 languageCode = "en-us"
-defaultContentLanguage = "en-us"
+defaultContentLanguage = "en"
 
 theme = "axiom"
 
@@ -195,6 +195,6 @@ name = "Extending"
 weight = 8
 
 [languages]
-[languages."en-us"]
+[languages."en"]
 weight = 1
-languageName = "US English"
+languageName = "English"
