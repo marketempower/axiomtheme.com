@@ -267,6 +267,7 @@ class: "override wrapper class names"
 width: "override inner width class name"
 style: "add custom style declarations"
 mdown: "toggle markdownify on Inner Content" # default on
+cdata: "toggle cdata class name" # default on
 ```
 
 ```plaintext

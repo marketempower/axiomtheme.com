@@ -94,7 +94,18 @@ dateFormat = "Jan 2, 2006 3:04PM"
 # Options: dark, light, false
 highlight = "dark"
 disableThemeAttribution = false
+
+# Max Width Page sections
+maxWidthTitle = "max-w-2xl"
+maxWidthFeature = "max-w-5xl"
+maxWidthContent = "max-w-2xl"
+
+# Max Width Template parts
+maxWidthHeader = "max-w-6xl"
+maxWidthFooter = "max-w-6xl"
 ```
+
+Max widths are optional and don't need to be set in your Config file unless you want to override the default values. Max widths can also be set in individual Page's [Frontmatter]({{< relref "docs/frontmatter" >}}). The value for the Max width param must be a valid CSS class name that is defined in Tailwind CSS or in Custom CSS.
 
 To enable Axiom's Syntax Highlighting color schemes to take effect, you will need to enable Markup Highlight Classes:
 

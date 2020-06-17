@@ -78,3 +78,22 @@ __Comments__: Turn off Comments for this piece of Content.
 comments = false
 +++
 ```
+
+__Max Width__: Set the max width of Page Title, Feature, and/or Content.
+
+```yaml
++++
+# Page sections
+maxWidthTitle = "max-w-2xl"
+maxWidthFeature = "max-w-5xl"
+maxWidthContent = "max-w-2xl"
+
+# Template parts
+maxWidthHeader = "max-w-6xl"
+maxWidthFooter = "max-w-6xl"
++++
+```
+
+The value for the max width param must be a valid CSS class name that is defined in Tailwind CSS or in Custom CSS.
+
+Setting any of these will override the default max width value. Alternatively, you can set these in the [Configuration]({{< relref "configuration" >}}) file for a global change.
