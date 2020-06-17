@@ -46,7 +46,7 @@ defaultContentLanguage = "en"
 # Which theme to use
 theme = "axiom"
 
-# Pagination
+# Pagination (increase number for production)
 paginate = 2
 # Canonify relative URLs using baseURL
 canonifyURLs = false
@@ -56,7 +56,7 @@ summaryLength = 40
 rssLimit = 100
 # Enable Emoji's in posts
 enableEmoji = true
-# Output a robots.txt file (see the 'Frontmatter' section below)
+# Output a robots.txt file (see the 'Frontmatter' Docs page)
 enableRobotsTXT = true
 # Don't automatically mangle titles
 pluralizelisttitles = false
