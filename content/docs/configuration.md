@@ -105,7 +105,7 @@ maxWidthHeader = "max-w-6xl"
 maxWidthFooter = "max-w-6xl"
 ```
 
-Max widths are optional and don't need to be set in your Config file unless you want to override the default values. Max widths can also be set in individual Page's [Frontmatter]({{< relref "docs/frontmatter" >}}). The value for the Max width param must be a valid CSS class name that is defined in Tailwind CSS or in Custom CSS.
+Max widths are optional and don't need to be set in your Config file unless you want to override the default values. Max widths can also be set in individual Page's [Frontmatter]({{< relref "docs/frontmatter" >}}). The value for the max width param must be a valid CSS class name that is defined in Tailwind CSS or in Custom CSS.
 
 To enable Axiom's Syntax Highlighting color schemes to take effect, you will need to enable Markup Highlight Classes:
 
