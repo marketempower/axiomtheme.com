@@ -88,7 +88,7 @@ __Google Adsense__: Axiom is ready for Ads if you choose to serve them. There is
 
 If you set an Adsense Id in the _Services_ Config (`params.services` `adsenseId`), Ads will be activated, otherwise all Ads related Javascript and code will not be output. Be sure to also set your `adsenseAdSlotId`.
 
-Setting the `adsenseLazy` to true will delay the loading of the Javascript slightly to enhance page speed.
+Setting the `adsenseLoad` to `"defer"` or `"lazy"` will delay the loading of the Javascript to enhance page speed. The `"lazy"` option uses a timeout, while `"defer"` only replaces the `"async"` attribute.
 
 __Facebook__: Collect data, and share Content with Facebook.
 

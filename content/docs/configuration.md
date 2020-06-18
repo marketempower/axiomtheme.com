@@ -176,8 +176,9 @@ adwordsId = "AW-DEV"
 adsenseId = "CA-PUB-DEV"
 # Google Adsense Ad Slot Id, for ad unit shown below Posts
 adsenseAdSlotId = "ID-DEV"
-# Google Adsense Lazy Load
-adsenseLazy = false
+# Google Adsense Load Style
+# Options: async, defer, lazy. Default: async
+adsenseLoad = ""
 # Google Adwords Conversion Id
 adwordsConversionId = "ID-DEV"
 # Google Adwords Conversion value (integer, no quotes, 00.00)
