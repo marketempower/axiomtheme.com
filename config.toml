@@ -35,14 +35,14 @@ footer = ["twitter", "github"]
 
 [params.services]
 analyticsId = "UA-160259978-5"
-adwordsId = ""
-adsenseId = ""
+adwordsId = "AW-659110413"
+adsenseId = "ca-pub-9657127730219095"
 adsenseAdSlotId = ""
 adsenseLazy = false
 adwordsConversionId = ""
 adwordsConversionValue = 0
 facebookApp = ""
-facebookPixel = ""
+facebookPixel = "1130262247309983"
 # disqusShortname = "axiomtheme"
 
 [params.logo]
