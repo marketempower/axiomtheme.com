@@ -18,6 +18,7 @@ When entering paths in the Config file or in Content files, the most portable an
 - Local file paths are relative to the `publishDir` Config option (default: `public`)
 - CDN file paths are relative to the `params.cdn.provider` constructed URL
 - Local file URLs will be output as absolute or root-relative based on the `canonifyURLs` Config setting
+- When using Leaf Page Bundles, resource paths should be relative to the bundle, i.e., `my-post/feature.png` or `my-post/data-table.md`
 - CDN file URLs are always absolute
 
 Examples of where relative paths are recommended:
@@ -26,7 +27,10 @@ Examples of where relative paths are recommended:
 - In the `params.images` Config section
 - In a Page or Post's Frontmatter when setting the Feature image
 - In a Page or Post's Content when linking to a PDF, or using the Figure shortcode to display an image
+- When using Leaf Page Bundles or any other structure where resources are not on a CDN
 - Anywhere else an asset path is entered, excepting links to third-party websites/assets
+
+> If you use a different Permalink structure than Axiom's default, you'll need to adjust your Paths in Content to match that, i.e., `posts/my-post/`, or `blog/my-post-2020-01-01`, etc.
 
 ## Core
 

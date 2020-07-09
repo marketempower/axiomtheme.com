@@ -156,7 +156,20 @@ function init() {
 </script>
 ```
 
-## Recent Pages Widget
+## Leaf Page Bundle Resource
+
+Include Page type resources from a Leaf Page Bundle and display them in Content. Similar to a `headless-resource`, but for Content specific to just the Page. A Page Leaf Bundle with a Page resource `data-table.md` could be put inline:
+
+```plaintext
+{{%/* page-resource "data-table" */%}}
+
+# Or, if it's an .html file, using the other Shortcode escapes < and >:
+{{</* page-resource "data-table" */>}}
+```
+
+Skipping example outputs, to avoid confusion with regular page content.
+
+## Recent Pages
 
 Show a number of Recent Pages from the Config file `params.mainSections` array. Pages will be displayed using the `/layouts/_default/summary.html` view.
 
@@ -173,6 +186,17 @@ style: "style definitions"
 {{</* recent-pages */>}}
 {{</* recent-pages 5 */>}}
 {{</* recent-pages limit=5 class="mt-3" */>}}
+```
+
+Skipping example outputs, to avoid confusion with regular page content.
+
+## Summary
+
+Place a "summary" of a piece of Content anywhere, i.e., place a summary of a Page you want to highlight on the Homepage. Normally, this type of summary is just for a list like Recent Posts, but this Shortcode brings it to a single piece of Content.
+
+```plaintext
+<!-- example -->
+{{%/* summary "pages/company-event" */%}}
 ```
 
 Skipping example outputs, to avoid confusion with regular page content.
@@ -201,7 +225,7 @@ viewbox: "override viewbox settings"
 {{< svg name="download" class="h-8 w-auto text-red-500 fill-current" >}}&nbsp;&nbsp;{{< svg name="instagram" style="width: 2rem; height: 2rem; color: royalblue;" >}}
 {{< /blocks/justify >}}
 
-## Term Cloud Widget
+## Term Cloud
 
 Output a Term cloud with optional count.
 
@@ -261,13 +285,16 @@ preset: "cdn transform preset used in partial 'cdn-src'"
 
 Output a Section block.
 
+> When nested as a first-child of another `.cdata` block, the default margin-top is applied. If you're using it outside a `.cdata` block, you can add `class="mt-9"` to the Shortcode definition if you need a top-margin.
+
 ```yaml
 # options
-class: "override wrapper class names"
+class: "append wrapper class names"
 width: "override inner width class name"
 style: "add custom style declarations"
 mdown: "toggle markdownify on Inner Content" # default on
 cdata: "toggle cdata class name" # default on
+gutter: "toggle gutter margins" # default on
 ```
 
 ```plaintext
@@ -280,7 +307,7 @@ cdata: "toggle cdata class name" # default on
 ```html
 <!-- output -->
 <div class="section flex justify-center">
-  <div class="section-inner flex-grow min-w-0 mx-4 sm:mx-8 mt-8 max-w-2xl cdata">
+  <div class="section-inner flex-grow min-w-0 mx-4 sm:mx-8 max-w-2xl cdata">
     <!-- SNIP: headless-resource Shortcode HTML output -->
   </div>
 </div>

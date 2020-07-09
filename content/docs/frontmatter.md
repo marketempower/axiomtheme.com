@@ -97,3 +97,13 @@ maxWidthFooter = "max-w-6xl"
 The value for the max width param must be a valid CSS class name that is defined in Tailwind CSS or in Custom CSS.
 
 Setting any of these will override the default max width value. Alternatively, you can set these in the [Configuration]({{< relref "configuration" >}}) file for a global change.
+
+__Type Chromeless__: Display a Page without any "chrome", i.e., header or footer. This is useful for creating printable PDFs of a Page for download, or unwrapping a Page to `iframe` on another website.
+
+```yaml
++++
+type = "chromeless"
+# Optional custom layout, otherwise uses `layouts/page/single` layout:
+# layout = "custom-layout"
++++
+```
