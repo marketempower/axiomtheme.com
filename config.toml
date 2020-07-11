@@ -34,16 +34,16 @@ twitter = "https://twitter.com/axiomtheme"
 footer = ["twitter", "github"]
 
 [params.services]
-analyticsId = "UA-160259978-5"
-adwordsId = "AW-659110413"
-adsenseId = "ca-pub-9657127730219095"
-adsenseAdSlotId = "4886341150"
-adsenseLoad = ""
-adwordsConversionId = ""
-adwordsConversionValue = 0
+googleAnalyticsId = "UA-160259978-5"
+googleAdsId = "AW-659110413"
+googleAdsenseId = "ca-pub-9657127730219095"
+googleAdsenseAdSlotId = "4886341150"
+googleAdsenseLoad = ""
+googleAdsConversionId = ""
+googleAdsConversionValue = 0
 facebookApp = ""
 facebookPixel = "1130262247309983"
-# disqusShortname = "axiomtheme"
+#disqusShortname = "axiomtheme"
 
 [params.logo]
 inline = true
