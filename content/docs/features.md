@@ -82,6 +82,8 @@ If set in the _Image_ Config (`params.image` `icon1To1` and `icon2To1`), an icon
 
 __Google Analytics__: Collect data with Google Analytics.
 
+__Google Tag Manager__ (GTM): Manage all your tags in one place with Google Tag Manager.
+
 __Google Ads__: Collect data and track conversions with Google Ads.
 
 __Google Adsense__: Axiom is ready for Ads if you choose to serve them. There is a single responsive Ad Slot at the bottom of all Section Content.

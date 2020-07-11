@@ -172,21 +172,23 @@ Options for third party services, such as analytics, tracking, ads, and APIs:
 
 ```toml
 [params.services]
-# Google Analytics Id
-analyticsId = "UA-DEV"
-# Google Adwords Id, provided when you setup a Conversion
-adwordsId = "AW-DEV"
-# Google Adsense Id
-adsenseId = "CA-PUB-DEV"
-# Google Adsense Ad Slot Id, for ad unit shown below Posts
-adsenseAdSlotId = "ID-DEV"
+# Google Analytics Property Id
+googleAnalyticsId = ""
+# Google Tag Manager Container Id
+googleTagManagerId = ""
+# Google Ads Id (provided when you setup a Conversion)
+googleAdsId = ""
+# Google Adsense Publisher Id
+googleAdsenseId = ""
+# Google Adsense Ad Slot Id (for ad unit shown below Posts)
+googleAdsenseAdSlotId = ""
 # Google Adsense Load Style
 # Options: async, defer, lazy. Default: async
-adsenseLoad = ""
-# Google Adwords Conversion Id
-adwordsConversionId = "ID-DEV"
-# Google Adwords Conversion value (integer, no quotes, 00.00)
-adwordsConversionValue = 0
+googleAdsenseLoad = ""
+# Google Ads Conversion Id
+googleAdsConversionId = ""
+# Google Ads Conversion value (integer, no quotes, 00.00)
+googleAdsConversionValue = 0
 # Facebook App Id
 facebookApp = "FB-DEV"
 # Facebook Pixel Id
@@ -195,7 +197,13 @@ facebookPixel = "FB-DEV"
 disqusShortname = ""
 ```
 
-Comments are on by default when you set a `disqusShortname` value. Comments can be turned off an a post-by-post basis by using the [Frontmatter]({{< relref "docs/frontmatter" >}}) `comments` variable and setting it to `false`.
+**Google Tag Manager** (GTM): If you're using GTM and have a Google Analytics tag (or any other tag such as Facebook) configured in GTM, make sure you don't set the same tag Id in the Services Params above, as this would cause the tag to load twice.
+
+For example, if you have a Google Analytics tag setup in GTM, your Services Params `googleAnalyticsId` value should be `""` (empty). You only need to set your GTM Id in the Services Params, then GTM will take care of firing all the tags you've setup there.
+
+In other words, only use the Services Params for tags NOT setup in GTM.
+
+**Comments**: Comments are on by default when you set a `disqusShortname` value. Comments can be turned off an a post-by-post basis by using the [Frontmatter]({{< relref "docs/frontmatter" >}}) `comments` variable and setting it to `false`.
 
 > Tip: create a `config.dev.toml` file with test values for each service to prevent false positives on trackers.
 
