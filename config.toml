@@ -35,10 +35,9 @@ footer = ["twitter", "github"]
 
 [params.services]
 googleAnalyticsId = "UA-160259978-5"
-googleAdsId = "AW-659110413"
 googleAdsenseId = "ca-pub-9657127730219095"
 googleAdsenseAdSlotId = "4886341150"
-googleAdsenseLoad = ""
+googleAdsenseLoad = "lazy"
 googleAdsConversionId = ""
 googleAdsConversionValue = 0
 facebookApp = ""
