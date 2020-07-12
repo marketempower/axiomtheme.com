@@ -31,3 +31,11 @@ Links to the official Axiom resources (source code repositories, and live exampl
     {{< button text="Live Example" type="info" icon="file" href="https://axiom-example.netlify.app/" >}}
   </div>
 </div>
+
+## Deployment
+
+We recommend [Netlify](https://www.netlify.com/) for serverless cloud deployment and all of your JAMStack needs. Axiom uses Netlify for all of it's web properties.
+
+{{% blocks/justify class="mt-8" %}}
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a6e4ff96-33db-414c-8d77-01114da330a2/deploy-status)](https://app.netlify.com/sites/axiomtheme/deploys)
+{{% /blocks/justify %}}
