@@ -72,6 +72,10 @@ Axiom is configured to allow users to share your content via Facebook and Twitte
 
 For Twitter sharing, set the Author's Twitter username in the Author's Data file. For Facebook sharing, set the website's Facebook App Id in the _Services_ Config (`params.services` `facebookApp`) option.
 
+## Table of Contents (TOC)
+
+Axiom provides a *Table of Contents* (TOC) template partial for displaying Hugo's built-in output. TOCs are set on a per-post/page basis using the [Frontmatter TOC]({{< relref "docs/frontmatter#table-of-contents" >}}) variable.
+
 ## ATOM Feed
 
 Axiom uses an ATOM syndication feed format which includes full post content in each entry.
