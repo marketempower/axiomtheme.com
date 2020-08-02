@@ -72,6 +72,7 @@ text: "string" # REQUIRED
 type: ['default', 'info', 'warn', 'alert']
 icon: "SVG icon name"
 href: "URL"
+id: "string"
 ```
 
 ```plaintext
