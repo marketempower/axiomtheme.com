@@ -192,6 +192,11 @@ url = "/docs/extending/"
 name = "Extending"
 weight = 8
 
+[[menu.docs]]
+url = "/docs/upgrade-guide/"
+name = "Upgrade Guide"
+weight = 9
+
 [languages]
 [languages."en"]
 weight = 1
