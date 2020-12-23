@@ -1,22 +1,22 @@
 +++
 weight = 5
 title = "Upgrade Guide"
-subtitle = "Upgrading Axiom project from v0.7.2 to v0.8.0 - the Tailwind CSS v2 release."
+subtitle = "Upgrading Axiom project from v0.7.x to v0.8.0 - the Tailwind CSS v2 release."
 tags = ["upgrade"]
 categories = ["docs"]
 +++
 
-Upgrading an Axiom project from v0.7.2 to v0.8.0 - the Tailwind CSS v2 release.
+Upgrading an Axiom project from v0.7.x to v0.8.0 - the Tailwind CSS v2 release.
 
-Axiom v0.8.0 is a major upgrade from v0.7.2 and includes some breaking changes due to changes in Tailwind CSS v2.
+Axiom v0.8.0 is a major upgrade from v0.7.x and includes some breaking changes due to changes in Tailwind CSS v2.
 
 In general the upgrade doesn't change anything major within a deployed Axiom website, as the changes are mainly on the build side.
 
-## Reference the Example Website v0.4.0 Commits
+## Reference the Example Website's v0.4.0 Commits
 
 The Example Website's [v0.4.0 commits](https://github.com/marketempower/axiom-example/commits/v0.4.0) on Dec 23, 2020 show all the major steps required to upgrade a typical project.
 
-The rest of this document breaks down each of the v0.4.0 commits one-by-one.
+The rest of this document breaks down each of those commits one-by-one.
 
 ## Update Your Project's Axiom Theme
 
