@@ -218,12 +218,12 @@ viewbox: "override viewbox settings"
 
 ```plaintext
 <!-- examples -->
-{{</* svg name="download" class="h-8 w-auto text-red-500 fill-current" */>}}
+{{</* svg name="download" class="h-8 w-auto text-red-400 fill-current" */>}}
 {{</* svg name="instagram" style="width: 2rem; height: 2rem; color: royalblue;" */>}}
 ```
 
 {{< blocks/justify class="mt-8" >}}
-{{< svg name="download" class="h-8 w-auto text-red-500 fill-current" >}}&nbsp;&nbsp;{{< svg name="instagram" style="width: 2rem; height: 2rem; color: royalblue;" >}}
+{{< svg name="download" class="h-8 w-auto text-red-400 fill-current" >}}&nbsp;&nbsp;{{< svg name="instagram" style="width: 2rem; height: 2rem; color: royalblue;" >}}
 {{< /blocks/justify >}}
 
 ## Term Cloud

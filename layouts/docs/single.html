@@ -2,13 +2,13 @@
 <div class="docs-single">
   <div class="sm:flex sm:justify-center mx-4 sm:mx-8 mt-8">
     <div class="ax-content flex-none min-w-0 sm:w-1/6">
-      <h4 class="text-gray-500 font-semibold">{{ .Section | humanize }}</h4>
+      <h4 class="text-gray-400 font-semibold">{{ .Section | humanize }}</h4>
 
       {{- $currentPage := . }}
       <ul>
         {{- range (.Site.Menus.docs) }}
         {{- $isCurrent := (eq (trim $currentPage.RelPermalink "/") (trim .URL "/")) }}
-        <li class="mt-1 first:mt-0"><a class="font-medium {{ if $isCurrent }} text-gray-500 cursor-not-allowed{{ else }} text-gray-600 hover:text-gray-800{{ end }}"{{ if not $isCurrent }} href="{{ .URL | relLangURL }}"{{ end }}>{{ .Name }}</a></li>
+        <li class="mt-1 first:mt-0"><a class="font-medium {{ if $isCurrent }} text-gray-400 cursor-not-allowed{{ else }} text-gray-600 hover:text-gray-800{{ end }}"{{ if not $isCurrent }} href="{{ .URL | relLangURL }}"{{ end }}>{{ .Name }}</a></li>
         {{- end }}
       </ul>
     </div>
