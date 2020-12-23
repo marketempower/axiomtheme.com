@@ -1,14 +1,14 @@
 +++
 weight = 5
 title = "Upgrade Guide"
-subtitle = "Upgrading Axiom project from v0.7.2 to v0.8.0 - the Tailwind v2 release."
+subtitle = "Upgrading Axiom project from v0.7.2 to v0.8.0 - the Tailwind CSS v2 release."
 tags = ["upgrade"]
 categories = ["docs"]
 +++
 
-Upgrading an Axiom project from v0.7.2 to v0.8.0 - the Tailwind v2 release.
+Upgrading an Axiom project from v0.7.2 to v0.8.0 - the Tailwind CSS v2 release.
 
-Axiom v0.8.0 is a major upgrade from v0.7.2 and includes some breaking changes due to changes in Tailwind v2.
+Axiom v0.8.0 is a major upgrade from v0.7.2 and includes some breaking changes due to changes in Tailwind CSS v2.
 
 In general the upgrade doesn't change anything major within a deployed Axiom website, as the changes are mainly on the build side.
 
@@ -42,9 +42,9 @@ npm install
 
 Upgrade your project's `tailwind.config.js` file to match the Axiom Example project's [file](https://github.com/marketempower/axiom-example/blob/v0.4.0/tailwind.config.js).
 
-## Remove References to Deprecated Tailwind Classes
+## Remove References to Deprecated Tailwind CSS Classes
 
-Tailwind v2 changed or deleted some of the class names it provides. You'll need to search and replace in your project to update any instances. See the Tailwind [v2 Upgrade Guide](https://tailwindcss.com/docs/upgrading-to-v2) for more information.
+Tailwind CSS v2 changed or deleted some of the class names it provides. You'll need to search and replace in your project to update any instances. See the Tailwind CSS [v2 Upgrade Guide](https://tailwindcss.com/docs/upgrading-to-v2) for more information.
 
 ## Rebuild Your Project's CSS Assets
 
@@ -52,4 +52,4 @@ See the Extending Axiom [Custom CSS]({{< relref "docs/extending#custom-css" >}})
 
 ## Build and Preview Locally to Verify
 
-Build and preview your project locally to verify the CSS is displaying as intended. Tailwind v2 changed all the color values dramatically, so pay careful attention to shifts in saturation and naming.
+Build and preview your project locally to verify the CSS is displaying as intended. Tailwind CSS v2 changed all the color values dramatically, so pay careful attention to shifts in saturation and naming.
