@@ -1,26 +1,26 @@
 +++
 weight = 5
 title = "Upgrade Guide"
-subtitle = "Upgrading Axiom project from v0.7.x to v0.8.0 - the Tailwind CSS v2 release."
+subtitle = "Upgrading Axiom from v0.7.x to v0.8.0 - Tailwind CSS v2."
 tags = ["upgrade"]
 categories = ["docs"]
 +++
 
-Upgrading an Axiom project from v0.7.x to v0.8.0 - the Tailwind CSS v2 release.
+Upgrading Axiom from v0.7.x to v0.8.0 - Tailwind CSS v2.
 
-Axiom v0.8.0 is a major upgrade from v0.7.x and includes some breaking changes due to changes in Tailwind CSS v2.
+Axiom's v0.8.0 release is a major upgrade from v0.7.x and includes some breaking changes due to changes in Tailwind CSS v2.
 
 In general the upgrade doesn't change anything major within a deployed Axiom website, as the changes are mainly on the build side.
 
-## Reference the Example Website's v0.4.0 Commits
+## Reference the Example Project's v0.4.0 Commits
 
-The Example Website's [v0.4.0 commits](https://github.com/marketempower/axiom-example/commits/v0.4.0) on Dec 23, 2020 show all the major steps required to upgrade a typical project.
+The Example project's [v0.4.0 commits](https://github.com/marketempower/axiom-example/commits/v0.4.0) on Dec 23, 2020 show all the major steps required to upgrade a typical project.
 
 The rest of this document breaks down each of those commits one-by-one.
 
-## Update Your Project's Axiom Theme
+## Update Your Project's Axiom Theme Version
 
-Follow the documentation on [Updating the Theme]({{< relref "docs/quick-start#updating-the-theme" >}}) to update your project's Axiom theme to v0.4.0.
+Follow the documentation on [Updating the Theme]({{< relref "docs/quick-start#updating-the-theme" >}}) to update your project's Axiom theme version to v0.8.0.
 
 ## Update Your Project's package.json File
 
@@ -40,11 +40,11 @@ npm install
 
 ## Upgrade Your Project's tailwind.config.js File
 
-Upgrade your project's `tailwind.config.js` file to match the Axiom Example project's [file](https://github.com/marketempower/axiom-example/blob/v0.4.0/tailwind.config.js).
+Upgrade your project's `tailwind.config.js` file to match the Example project's [file](https://github.com/marketempower/axiom-example/blob/v0.4.0/tailwind.config.js).
 
 ## Remove References to Deprecated Tailwind CSS Classes
 
-Tailwind CSS v2 changed or deleted some of the class names it provides. You'll need to search and replace in your project to update any instances. See the Tailwind CSS [v2 Upgrade Guide](https://tailwindcss.com/docs/upgrading-to-v2) for more information.
+Tailwind CSS v2 changed or deleted some of the class names it provides. You'll need to search and replace within your project to update any instances. See the Tailwind CSS [v2 Upgrade Guide](https://tailwindcss.com/docs/upgrading-to-v2) for more information.
 
 ## Rebuild Your Project's CSS Assets
 
